@@ -13,6 +13,7 @@ h1{
     font-size: 3em;
     text-align: center;
     font-weight: 100;
+    margin: 30px
 }
 
 p{
@@ -47,14 +48,17 @@ a{
 main{
     max-width: 1600px;
     margin: 0 auto;
+    overflow: auto;
+    min-height: 1000px;
 }
 
 main > div{
     background-color: #0e0e16;
     float: right;
-    margin-right: 35px;
+    margin-right: 30px;
     margin-top: 50px;
     box-shadow: 5px 5px 18px #888888;
+    height: 135px;
 }
 
 main > div > div{
@@ -63,5 +67,5 @@ main > div > div{
 }
 
 img{
-    height: 130px;
+    height: 100%;
 }
