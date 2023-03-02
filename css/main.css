@@ -1,0 +1,39 @@
+/* CSS Reset ------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stilizzo i vari testi */
+
+h1{
+    color: #e53170;
+    font-family: Fredoka One;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 100;
+}
+
+p{
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Fredoka One;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #0c72cc;
+    text-decoration: none;
+}
