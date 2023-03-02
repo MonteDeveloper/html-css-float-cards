@@ -24,16 +24,44 @@ p{
 h2{
     font-family: Fredoka One;
     font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
 }
 
 h3{
-    font-size: 1.2em;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #0c72cc;
     text-decoration: none;
+    padding-right: 80px;
+}
+
+/* stilizzo i vari box */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main > div{
+    background-color: #0e0e16;
+    float: right;
+    margin-right: 35px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 18px #888888;
+}
+
+main > div > div{
+    float: right;
+    padding: 25px
+}
+
+img{
+    height: 130px;
 }
