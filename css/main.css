@@ -1,12 +1,11 @@
-/* CSS Reset ------------------*/
+/* CSS Reset */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Stilizzo i vari testi */
-
+/* Stilizzo il titolo della pagina */
 h1{
     color: #e53170;
     font-family: Fredoka One;
@@ -16,12 +15,14 @@ h1{
     margin: 30px
 }
 
+/* Stilizzo il testo della pagina */
 p{
     font-size: 1.2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
+/* Stilizzo il titolo dei box */
 h2{
     font-family: Fredoka One;
     font-size: 1.5em;
@@ -29,6 +30,7 @@ h2{
     margin-bottom: 10px;
 }
 
+/* Stilizzo il sottotitolo dei box */
 h3{
     color: white;
     font-size: 1em;
@@ -36,6 +38,7 @@ h3{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Stilizzo i link all'interno dei box */
 a{
     font-size: 1.1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -44,7 +47,7 @@ a{
     padding-right: 80px;
 }
 
-/* stilizzo i vari box */
+/* grandezza e posizionamento del contenitore principale della pagina*/
 main{
     max-width: 1600px;
     margin: 0 auto;
@@ -52,6 +55,7 @@ main{
     min-height: 500px;
 }
 
+/* Stilizzo i box che contengono le informazioni del team */
 main > div{
     background-color: #0e0e16;
     float: right;
@@ -62,12 +66,15 @@ main > div{
     min-width: 496px;
 }
 
+/* Stilizzo i contenitori all'interno dei box */
 main > div > div{
     padding: 20px;
 }
 
+/* Stilizzo le immagini all'interno dei box */
 img{
     float: left;
     height: 100%;
     margin-right: 25px;
 }
+
